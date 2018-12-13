@@ -9,13 +9,13 @@ body {
     padding: 0;
 }
 h1 {
-    color: AliceBlue;
-    font-family: Helvetica;
+    color: #ffffff;
+    font-family: Georgia;
 }
 p {
     color: AliceBlue;
-    font-family: "proxima-nova-soft";
-    font-size: 1.3em;
+    font-family: Helvetica;
+    font-size: 18px;
 }
 a {
 	color: #9b9b99;
