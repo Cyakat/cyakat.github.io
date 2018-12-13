@@ -10,11 +10,14 @@ body {
 }
 h1 {
     color: #ffffff
-    font-family: Helvetica;
+    font-family: proxima-nova-soft;
     padding-top: 100;
 }
 p {
     color: AliceBlue;
     font-family: Helvetica;
     font-size: 1.3em;
+}
+a {
+	color: #9b9b9b;
 }
