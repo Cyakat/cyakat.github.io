@@ -8,11 +8,9 @@ body {
     margin: 0;
     padding: 0;
 }
-h1 {
+h1, h2 {
     color: #ffffff;
     font-family: Georgia;
-    font-size: 40px;
-    background-color: #35577D;
 }
 p {
     color: AliceBlue;
