@@ -20,3 +20,9 @@ p {
 a {
 	color: #9b9b99;
 }
+.hidden {
+    opacity: 0;
+}
+.visible {
+    opacity 1;
+}
