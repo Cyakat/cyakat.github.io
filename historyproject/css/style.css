@@ -10,16 +10,21 @@ body {
 }
 h1, h2 {
     color: #ffffff;
-    font-family: Georgia;
+    font-family: 'Oxygen';
+    font-weight: 100;
 }
 p {
     color: AliceBlue;
-    font-family: Helvetica;
+    font-family: 'Oxygen';
     font-size: 18px;
+    font-weight: 100;
 }
 a {
 	color: #9b9b99;
 }
 .hidden {
     opacity: 0;
+}
+h2 a {
+    color: #ffffff;
 }
