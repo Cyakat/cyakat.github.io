@@ -24,6 +24,7 @@ p {
 }
 a {
 	color: #9b9b99;
+	width: 20%;
 }
 .hidden {
     opacity: 0;
