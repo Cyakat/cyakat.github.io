@@ -9,18 +9,34 @@ body {
     padding: 0;
 }
 h1 {
-    color: #ffffff;
-    font-family: Georgia;
+    font-size: 40px;
 }
-h2 {
-	color: #ffffff;
-	font-family: Georgia;
+h1, h2 {
+    color: #ffffff;
+    font-family: Nunito;
+    font-weight: 100;
 }
 p {
     color: AliceBlue;
-    font-family: Helvetica;
+    font-family: Nunito;
     font-size: 18px;
+    font-weight: 100;
 }
 a {
 	color: #9b9b99;
+}
+.hidden {
+    opacity: 0;
+}
+h2 a {
+    color: #ffffff;
+}
+.button {
+    background-color: #1d3148;
+	text-align: center;
+	padding: 5px;
+	border-left: solid;
+	border-width: 5px;
+    border-color: #4979b1;
+    width: 20%;
 }
