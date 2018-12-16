@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script src="js/main.js" type="text/javascript"></script>
-		<link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400|Nunitio:100" rel="stylesheet">	
-		<link href='css/style.css' type='text/css' rel='stylesheet'>
-		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-		<title>Tiko's mods</title>
-	</head>
-	<body>
-		<h1>Tiko's Mods</h1>
-		<h2>Server is now on a better machine yay!</h2>
 
-		<p>Latest mod folders:<p>
+<head>
+    <link href='css/style.css' type='text/css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <title>Tiko's Mods</title>
+</head>
 
-		<a href="/downloads/mods.zip" download="Mods"><p class='button'>Mods</p></a>
-		<a href="/downloads/mods2.zip" download="Mods2"><p class='button'> Mods2 </p></a>
-		<a href="/downloads/mods.zip" download="Mods3"><p class='button'> Mods3</p></a>
-		<p>Latest mod incase you haven't gotten it yet:</p>
-		<p>None as of now. RFTools wasn't working correctly</p>
-		<!--<a href="/downloads/latest.jar" download="RFTools.jar">
-			<p class='button'>RFTools</p></a>
-		<a href="/downloads/latest2.jar" download="RFTools dimensions.jar"><p class='button'> RFTools dimenstion</p></a>
-		<a href="/downloads/latest3.jar" download="Mcjtylib.jar"><p class='button'> Mcjtylib.jar</p></a>-->
-		<p>Turns out the mods only work on <a class='button' href="/downloads/Forge.exe">this</a> version</p>
-		<p>Don't know why</p>
-		<p>History project is over b. Sorry :(</p>
-	</body>
+<body>
+    <div class='header'>
+        <h1 class='title'>Tiko's Mods</h1>
+    </div>
+    <main>
+        <div class='main-page'>
+            <h1>About my server</h1>
+            <p>My server is a modded server. I mostly play on it with my friends. It is usually up and working most of the time.</p>
+            <p> The mods I have on it are: Applied Energistics2, Buildcraft, Chisels and Bits, Ender Utilities, Equivalent Energistics, Inventory Tweaks, Jei, Open Computers, ProjectE, Psi, Redstone Flux, Simple Dimenstions, TConstruct, Thermal Expansion, Vein Miner, and Xaeros Minimap.</p>
+        </div>
+        <div class='downloads-page invis'>
+            <h1>Downloads</h1>
+            <p>These are the zip folders for the mods</p>
+            <p class='button dp-downloads-button'><a href='downloads/mods.zip' download='mods'>Mods</a></p>
+            <p class='button dp-downloads-button'><a href='downloads/mods2.zip' download='mods2'>Mods2</a></p>
+            <p class='button dp-downloads-button'><a href='downloads/mods3.zip' download='mods3'>Mods3</a></p>
+        </div>
+        <div class='misc-page invis'>
+            <h1>Other things</h1>
+            <p>Here is the ip for the server: 174.22.173.150:25565</p>
+            <p>Also <a href='/historyproject'>Here</a> is my history project page.</p>
+        </div>
+    </main>
+    <nav>
+        <div class='slidable slide-in'>
+        <div class='side-box-attach nav-button click-slide-in'>
+                <img id='three-bars' src='images/three-bars.svg' alt=''>
+            </div>
+
+        <div class='side-box-top'>
+            <p class='menu'>Menu</p>
+        </div>
+        
+        <div class='side-box'>
+            <div class='options'>
+                <p class='button options menu-button main-page-button'>Main page</p>
+                <p class='button options menu-button downloads-button'>Downloads</p>
+                <p class='button options menu-button misc-button'>Other things</p>
+            </div>
+        </div>
+            
+        </div>
+    </nav>
+</body>
+
 </html>
