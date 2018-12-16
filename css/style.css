@@ -13,9 +13,13 @@ main {
     position: absolute;
     background-color: #222222;
     z-index: 2;
-    height: 700px;
+    height: 1000px;
     width: 100%;
     box-shadow: 0px -5px  25px 5px #000;
+}
+.image {
+    position: relative;
+    left: -100px;
 }
 a {
     color: white;
@@ -92,6 +96,7 @@ th {
     position: absolute;
     top: 35px;
     z-index: 40;
+    box-shadow: 0px 0px  25px 5px #000;
 }
 .side-box-attach {
     background-color: #afafaf;
@@ -99,8 +104,8 @@ th {
     height: 35px;
     position: absolute;
     left: 200px;
-
-    z-index: 40;
+    box-shadow: 0px 0px  25px 5px #000;
+    z-index: 41;
 }
 .side-box-top {
     background-color: #afafaf;
@@ -108,7 +113,7 @@ th {
     height: 35px;
     position: absolute;
 
-    z-index: 40;
+    z-index: 42;
 }
 #three-bars {
     height: 20px;

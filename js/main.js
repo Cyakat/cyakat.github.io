@@ -26,6 +26,10 @@ function main () {
         $('.misc-page').siblings().fadeOut();
         $('.misc-page').fadeIn();
     });
+    $('.pictures-button').on('click', function () {
+        $('.pictures-page').siblings().fadeOut();
+        $('.pictures-page').fadeIn();
+    });
 
     
 }
