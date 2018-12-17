@@ -84,7 +84,7 @@ th {
     background: rgb(112, 191, 255);
 }
 .invis {
-    opacity: 0;
+    display: none;
 }
 .green {
     color: rgb(0, 255, 0);
