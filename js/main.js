@@ -48,6 +48,10 @@ function main () {
         $('.pictures-page').siblings().fadeOut();
         $('.pictures-page').fadeIn();
     });
+    $('.videos-button').on('click', function () {
+        $('.videos-page').siblings().fadeOut();
+        $('.videos-page').fadeIn();
+    });
 
     
 }
