@@ -63,25 +63,6 @@ h1 {
 table {
     text-align: center;
     align-items: left;
-    padding: 10px;
-    font-family: 'Nunito';
-    font-weight: 100;
-    /*background: rgb(106, 213, 255);*/
-}
-tr {
-    background: #e4e4e4;
-    border-bottom: 1px solid #FFF;
-    margin-bottom: 5px;
-}
-td, th {
-    font-size: 18px;
-    font-weight: 400;
-    padding: 20px;
-    text-align: left;
-    width: 80%;
-}
-th {
-    background: rgb(112, 191, 255);
 }
 .invis {
     display: none;
