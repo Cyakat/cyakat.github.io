@@ -14,23 +14,21 @@
 }
 
 .background{
-  background-color: var(--red);
+  background: white;
   vertical-align: middle;
 }
 .title{
-  position:absolute;
-  left: 50%;
+  position: relative;
+  background: var(--red);
   top: 20%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
-.main{
-  background: var(--gray);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+.main-body{
+  position: relative;
+  top: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .border{
   border-radius: 10px;
