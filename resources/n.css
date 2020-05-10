@@ -1,0 +1,72 @@
+/* The image used */
+html {
+  background-color: #2e2e2e;
+}
+.bg-image {
+  background-image: url("https://images.discordapp.net/avatars/687077283965567006/b945188bdd5dcc0d216f32f226fdb8b7.png?size=512");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, html {
+height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.info-box {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  font-family: Comfortaa;
+}
+.left {
+  text-align: left;
+}
+.short-line {
+  background-color: white;
+  width: 40%;
+  height: 1px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.line {
+  background-color: white;
+  width: 98%;
+  height: 1px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+p {
+  padding: 10px;
+  font-family: Comfortaa;
+}
+table {
+  margin-top: 20px;
+  width: 100%;
+}
+th {
+  font-size: 30px;
+  color: #ff4747;
+  height: 30px;
+}
