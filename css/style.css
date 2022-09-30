@@ -8,21 +8,24 @@
 :root{
 --red: #ff325b;
 --gray: #34403a;
+--background: #343a40;
 --blue: #00ffc5;
 --green: #dced31;
 --gun: #2d3047;
+--word-color: #8500b9;
 }
 
 .background{
-  background: white;
+  background: var(--background);
   vertical-align: middle;
 }
 .title{
   position: relative;
-  background: var(--red);
+  background: var(--word-color);
   top: 20%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
+  color: white;
 }
 .main-body{
   position: relative;
@@ -39,6 +42,7 @@ p.normal-text{
   font-family: "Nunito";
   font-size: 120%;
   margin: 2%;
+  color: white;
 }
 .menu-bar{
   background: var(--gun)

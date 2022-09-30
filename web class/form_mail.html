@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Remote Hosted Scripts Review
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body class="main">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-blue">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bootstrap.html" class="nav-link">Bootstrap Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" aria-current="page" class="nav-link active">FormMail Review</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-sm ">
+            <div class="row align-items-center">
+                <div class="col main-item">
+                    <h1>FormMail</h1>
+                    <h3>Overview</h3>
+                    <p>
+                        FormMail is a easy way to allow users to submit forms on your website. It also enables those forms to be sent to your email. This allows for easy surveys or
+                        just allowing the user to easily get in touch with you.
+                    </p>
+                    <h3>Ease of Registration</h3>
+                    <p>
+                        Registration is very simple only requires an email adress and a password. Once you have signed up, it will ask you to verify your email. You will probably have to check your spam folder unfortunately.
+                        After that though, all you have to do is sign in and you're ready to go!
+                    </p>
+                    <h3>Services Offered</h3>
+                    <p>
+                        FormMail only offers one service and that is allowing your website forms to send you emails. Very simple concept but very useful.
+                    </p>
+                    <h3>Site Banner And Advertising</h3>
+                    <p>
+                        The website's site banner isn't all that special and just consists of a logo and some text saying to subscribe to the service. The navbar is inexplicably small and I only just noticed that it was there.
+                        This service has no advertising except for the creator asking people to use it as far as I can tell.
+                    </p>
+                    <h3>Ease of Use</h3>
+                    <p>
+                        The site offers a quick start guide allowing you to easily setup a form on your own website. Though the way that this is done is not particularly secure. 
+                        It seems pretty easy to just go into the source code and easily obtain their mailbox number and email address.
+                    </p>
+                    <h3>My Recommendation</h3>
+                    <p>
+                        I wouldn't use this because it is too easy for someone to steal your mailbox number and spam your email with garbage. It also brings you to a very ugly webpage after submiting
+                    </p>
+                </div>
+                <div class="col formMail">
+                    <h4>Demostration Form</h4>
+                    <form method="POST" action="https://fp1.formmail.com/cgi-bin/fm192">
+                        <div class="mb-3">
+                            <label for="InputEmail1" class="form-label">Email address</label>
+                            <input type="email" name="email" id="InputEmail1" aria-describedby="emailHelp" class="form-control">
+                            <div class="form-text" id="emailHelp">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Text1" class="form-label">Contact Us</label>
+                            <input type="text" name="text" id="InputEmail1" class="form-control" aria-describedby="textHelp">
+                            <div class="form-text" id="textHelp">Ask us something!</div>
+                        </div>
+                        <div class="mb-3">
+                            <button class="submit-button">Submit</button>
+                        </div>
+                        
+
+                        <input type="hidden" name="_pid" value="158586">
+                        <input type="hidden" name="_fid" value="WNTGN3YH">
+                        <input type="hidden" name="recipient" value="1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
