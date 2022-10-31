@@ -1,0 +1,87 @@
+.main {
+    background-color: #22262b;
+    color: #e8f2ff;
+}
+.navbar-blue {
+    background-color: #0571ff;
+}
+
+.main-item {
+    /*border-radius: 5px;
+    box-shadow: #131518 0px 0px 3px;*/
+    padding-top: 2em;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: .2em;
+}
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.formMail {
+    background-color: #32363d;
+    border-radius: 5px;
+    border-color: #414850;
+    border-width: 1px;
+    border-style: solid;
+}
+
+h4 {
+    padding-top: .5em;
+}
+
+button {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(223, 11%, 12%);
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: hsl(204, 54%, 50%);
+    transform-origin: center;
+    transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+  
+  button.submit-button:hover {
+    cursor: pointer;
+    color: #161616;
+  }
+  
+  button.submit-button:hover::before {
+    transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
+  }
+  
+.see {
+    font-size: larger;
+    text-decoration: none;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
+
+nav {
+    font-size: larger;
+}
