@@ -10,7 +10,7 @@
     /*border-radius: 5px;
     box-shadow: #131518 0px 0px 3px;*/
     padding-top: 2em;
-    /* font-size: large; */
+    font-size: large; 
 }
 
 h1 {
@@ -21,14 +21,6 @@ h1 {
 p {
     padding-left: 1em;
     padding-right: 1em;
-}
-
-.formMail {
-    background-color: #32363d;
-    border-radius: 5px;
-    border-color: #414850;
-    border-width: 1px;
-    border-style: solid;
 }
 
 h4 {
@@ -97,4 +89,11 @@ nav {
 
 .intro {
     font-size: 20px;
+}
+
+footer {
+    background-color: #6b6b6b;
+    text-align: center;
+    padding-bottom: .5%;
+    padding-top: 1%
 }
