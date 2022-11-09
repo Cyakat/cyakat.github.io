@@ -1,7 +1,8 @@
 .main {
-    background-color: #22262b;
+    background-color: black;
     color: #e8f2ff;
-    background-image: url(../images/sci-fi\ circles.png)
+    background-image: url(../images/sci-fi\ circles.png);
+    background-repeat: no-repeat;
 }
 .navbar-blue {
     background-color: #0571ff;
@@ -17,7 +18,7 @@
 h1 {
     text-align: center;
     padding-bottom: .2em;
-    font-size: 3em !important;
+    font-size: 3em;
 }
 
 h2.intro {
@@ -108,12 +109,14 @@ footer {
 
 .about-me-main {
     background-image: url("../images/render.png");
+    background-repeat: no-repeat;
 }
 
 .solid-background {
     background-color: #22262b;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 #video {
@@ -124,3 +127,32 @@ footer {
     min-height: 100%;
     z-index: -99999;
   }
+
+@media screen and (min-width: 600px) {
+    .main {
+        font-size: 2em;
+    }
+    .welcome-image {
+        height: 75%;
+        width: 75%;
+    }
+    h1 {
+        font-size: 5em !important;
+    }
+    h2 {
+        font-size: 2em !important;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        font-size: 1em;
+    }
+    .welcome-image {
+        height: 25%;
+        width: 25%;
+    }
+}
