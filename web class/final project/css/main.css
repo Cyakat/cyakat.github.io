@@ -1,6 +1,7 @@
 .main {
     background-color: #22262b;
     color: #e8f2ff;
+    background-image: url(../images/sci-fi\ circles.png)
 }
 .navbar-blue {
     background-color: #0571ff;
@@ -16,18 +17,22 @@
 h1 {
     text-align: center;
     padding-bottom: .2em;
+    font-size: 3em !important;
 }
+
+h2.intro {
+    text-align: center;
+}
+
+.text-box {
+    background-color: #22262b;
+    border-radius: 10px;
+    padding: 10px
+}
+
 p {
     padding-left: 1em;
     padding-right: 1em;
-}
-
-.formMail {
-    background-color: #32363d;
-    border-radius: 5px;
-    border-color: #414850;
-    border-width: 1px;
-    border-style: solid;
 }
 
 h4 {
@@ -82,6 +87,40 @@ button {
     width: 64px;
 }
 
+.welcome-image {
+    height: 25%;
+    width: 25%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+}
+
 nav {
     font-size: larger;
 }
+
+footer {
+    background-color: #22262b;
+    position: fixed;
+
+    bottom: 0;
+}
+
+.about-me-main {
+    background-image: url("../images/render.png");
+}
+
+.solid-background {
+    background-color: #22262b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99999;
+  }
