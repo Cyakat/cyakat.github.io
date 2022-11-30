@@ -18,6 +18,19 @@
 .body {
     padding-top: 50px;
 }
+.card-holder {
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card {
+    background-color: #0571ff !important;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    background-color:hsl(223, 11%, 12%);
+}
 
 h1 {
     text-align: center;
@@ -107,7 +120,8 @@ nav {
 footer {
     background-color: #22262b;
     position: fixed;
-
+    font-size: .5em;
+    height: 20px;
     bottom: 0;
 }
 
