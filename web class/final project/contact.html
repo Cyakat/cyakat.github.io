@@ -4,6 +4,32 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('user_t9dVg013KvmDrc5c7xxFy');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_gg2k11i', 'template_IN8JsPm4', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        alert("Your email has been sent!");
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body class="main">
     <nav class="navbar navbar-expand-lg navbar-dark navbar-blue">
@@ -26,7 +52,7 @@
                         <a href="coding.html" class="nav-link">Coding</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Art</a>
+                        <a href="artwork.html" class="nav-link">Art</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" aria-current="page" class="nav-link active">Contact</a>
@@ -41,10 +67,23 @@
     <div class="container-sm">
         <h1>Contact</h1>
         <p class="intro">
-            If you would like to contact me for any reason you can do so at: <a href="mailto:noah@thebauers.net">noah@thebauers.net</a>. <br>
-            I will not be doing an comissions on my art as I do not have the skill for that and I don't think anybody would want something from me anyways right now. <br>
+            I will not be doing an commissions on my art as I do not have the skill for that and I don't think anybody would want something from me anyways right now. <br>
             If you would like to hire me to program something I can do that however.
         </p>
+        <h2>Email me here</h2>
+        <div class="form-containter col-sm-3">
+            <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <label class="form-label">Name</label>
+                <input type="text" name="user_name" class="form-control">
+                <label class="form-label">Email</label>
+                <input class="form-control" type="email" name="user_email">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" name="message"></textarea>
+                <br>
+                <button id="submit-button" class="submit-button" type="">Send</button>
+            </form>
+        </div>
     </div>
     <footer class="container-fluid">
         <div class="">

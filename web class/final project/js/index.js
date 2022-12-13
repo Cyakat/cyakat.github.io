@@ -1,7 +1,8 @@
-codeList = ['cyakat.github.io','DiscordCatBot','DiscordOwOBot','guess-who-website','machine-learning','Word-Stats.html','Wordle-bot']
-
 $(document).ready(() => {
-    for (var i = 0; i < codeList.length; i++) {
-        ""
-    }
+    $("#submit-button").mousedown(function() {
+        $("#submit-button").css("background", "hsl(204, 54%, 60%);");
+    });
+    $("#submit-button").mouseup(function() {
+        $("#submit-button").css("background", "hsl(204, 54%, 50%);");
+    });
 });
