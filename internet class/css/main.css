@@ -1,0 +1,234 @@
+.main {
+    background-color: black;
+    color: #e8f2ff;
+    background-image: url(../images/sci-fi\ circles.png);
+    background-repeat: no-repeat;
+}
+.navbar-blue {
+    background-color: #0571ff;
+}
+
+.main-item {
+    /*border-radius: 5px;
+    box-shadow: #131518 0px 0px 3px;*/
+    padding-top: 2em;
+    font-size: large;
+}
+
+.body {
+    padding-top: 50px;
+}
+.card-holder {
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card {
+    background-color: #0571ff !important;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    background-color:hsl(223, 11%, 12%);
+}
+
+.card-image {
+    height: 1920/4;
+    width: 1080/4;
+}
+
+.form-container {
+    background-color: #32363d;
+    border-radius: 5px;
+    border-color: #414850;
+    border-width: 1px;
+    border-style: solid;
+}
+
+button {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(223, 11%, 12%);
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: hsl(204, 54%, 50%);
+    transform-origin: center;
+    transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+  
+  button.submit-button:hover {
+    cursor: pointer;
+    color: #161616;
+  }
+  
+  button.submit-button:hover::before {
+    transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
+  }
+
+h1 {
+    text-align: center;
+    padding-bottom: .2em;
+    font-size: 3em;
+}
+
+h2.intro {
+    text-align: center;
+}
+
+.text-box {
+    background-color: #22262b;
+    opacity: 90%;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 100px;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
+
+h4 {
+    padding-top: .5em;
+}
+
+button {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(223, 11%, 12%);
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: hsl(204, 54%, 50%);
+    transform-origin: center;
+    transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+  
+  button.submit-button:hover {
+    cursor: pointer;
+    color: #161616;
+  }
+  
+  button.submit-button:hover::before {
+    transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
+  }
+  
+.see {
+    font-size: larger;
+    text-decoration: none;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
+
+.welcome-image {
+    height: 25%;
+    width: 25%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+}
+
+nav {
+    font-size: larger;
+}
+
+footer {
+    background-color: #22262b;
+    position: fixed;
+    font-size: .5em;
+    height: 20px;
+    bottom: 0;
+}
+
+.about-me-main {
+    background-image: url("../images/render.png");
+    background-repeat: no-repeat;
+}
+
+.solid-background {
+    background-color: #22262b;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.article {
+    text-align: left;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99999;
+  }
+
+@media screen and (min-width: 600px) {
+    .main {
+        font-size: 2em;
+    }
+    .welcome-image {
+        height: 75%;
+        width: 75%;
+    }
+    h1 {
+        font-size: 5em !important;
+    }
+    h2 {
+        font-size: 2em !important;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        font-size: 1em;
+    }
+    .welcome-image {
+        height: 25%;
+        width: 25%;
+    }
+}
