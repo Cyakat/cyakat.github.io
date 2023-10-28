@@ -59,3 +59,7 @@ h1{
 .word-tracker-image {
   border-radius: 5px;
 }
+
+a.hyper-link {
+  color: #00a2ff !important
+}
