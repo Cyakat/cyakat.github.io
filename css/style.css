@@ -44,6 +44,7 @@ p.normal-text{
   margin: 2%;
   color: white;
 }
+
 .menu-bar{
   background: var(--gun)
 }
@@ -53,4 +54,8 @@ h1{
 
 .subtitle {
   color: white;
+}
+
+.word-tracker-image {
+  border-radius: 5px;
 }
