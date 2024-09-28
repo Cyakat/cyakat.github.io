@@ -17,11 +17,17 @@
 
 .background{
   background: var(--background);
+  background-image: url("../images/star background but dull.png");
+  background-repeat: repeat;
   vertical-align: middle;
 }
 .title{
   position: relative;
-  background: var(--word-color);
+  background: black;
+  
+  border-color: #ff325b;
+  border-width: 3px;
+  border-style: double;
   top: 20%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -32,6 +38,13 @@
   top: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
+  margin-top: 10px;
+  background-color: black;
+  background-image: url("../images/star background but duller.png");
+  background-repeat: repeat;
+  border-color: #00d9ff;
+  border-width: 3px;
+  border-style: double;
 }
 .border{
   border-radius: 10px;
@@ -39,14 +52,20 @@
 
 }
 p.normal-text{
-  font-family: "Nunito";
   font-size: 120%;
   margin: 2%;
   color: white;
 }
 
-.menu-bar{
-  background: var(--gun)
+p {
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+
+.navbar{
+  background-color: black;
+  background-image: url("../images/samus helmet but dull.png");
+  background-repeat: repeat-x;
 }
 h1{
   font-size: 250%;
